@@ -3,6 +3,6 @@ mountpoint = "/"
 minsize = "20 GiB"
 
 [[customizations.files]]
-source = "files/test.sh"
-destination = "$HOME/test.sh"
+source = "files/*"
+destination = "/usr/local/bin"
 mode = "0644"
