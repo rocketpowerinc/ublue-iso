@@ -4,5 +4,5 @@ minsize = "20 GiB"
 
 [[customizations.files]]
 source = "files/test.sh"
-destination = "/etc/skel/test.sh"
+destination = "$HOME/test.sh"
 mode = "0644"
