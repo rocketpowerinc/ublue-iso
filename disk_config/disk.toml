@@ -2,11 +2,7 @@
 mountpoint = "/"
 minsize = "20 GiB"
 
-[customizations.flatpaks]
-remotes = [
-  { name = "flathub", url = "https://flathub.org/repo/flathub.flatpakrepo" }
-]
-install = [
-  "dev.zelikos.rollit",
-  "com.spotify.Client"
-]
+[[customizations.files]]
+source = "files/test.sh"
+destination = "/etc/skel/test.sh"
+mode = "0644"
