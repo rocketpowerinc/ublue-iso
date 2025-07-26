@@ -2,10 +2,11 @@
 FROM scratch AS ctx
 COPY build_files /
 
-# Base Image 
+#* Base Image (THESE WORKED)
 #FROM ghcr.io/ublue-os/bazzite:stable
 #FROM ghcr.io/ublue-os/bazzite:latest
-FROM ghcr.io/ublue-os/bluefin-dx:stable
+#FROM ghcr.io/ublue-os/bluefin-dx:stable
+FROM ghcr.io/ublue-os/cosmic-atomic-main:latest
 
 
 ## Other possible base images include:
