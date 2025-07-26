@@ -4,9 +4,8 @@ COPY build_files /
 
 # Base Image
 #FROM ghcr.io/ublue-os/bazzite:stable
-#FROM ghcr.io/ublue-os/bluefin-main:latest
-FROM ghcr.io/ublue-os/bluefin-nvidia:stable
-#FROM ghcr.io/ublue-os/cosmic:latest
+FROM ghcr.io/ublue-os/bazzite:latest
+
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
