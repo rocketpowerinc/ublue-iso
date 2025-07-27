@@ -2,7 +2,8 @@
 mountpoint = "/"
 minsize = "20 GiB"
 
-[[customizations.files]]
-source = "files/*"
-destination = "/usr/local/bin"
-mode = "0644"
+#!NO GO
+#[[customizations.files]]
+#source = "files/*"
+#destination = "/usr/local/bin"
+#mode = "0644"
